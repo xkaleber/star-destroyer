@@ -1,0 +1,23 @@
+/* Star styles */
+.star {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: none;
+  font-size: 24px;
+  background-color: white;
+}
+.star:focus {
+  text-shadow: 0 0 10px rgb(245, 245, 97);
+  outline: rgb(245, 245, 97) solid 1px;
+}
+.star:hover {
+  cursor: pointer;
+  text-shadow: 0 0 10px black;
+  outline: rgb(245, 245, 97) solid 1px;
+  transform: scale(1.1);
+}
