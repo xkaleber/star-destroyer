@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 import './Star.css';
 
 function Star({ id, position, onDestroy }) {
-  const starRef = useRef(null);
+  const starRef = useRef(null); // Ref to the star element
 
   useEffect(() => {
     if (starRef.current) { 
