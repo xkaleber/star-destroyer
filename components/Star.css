@@ -16,10 +16,11 @@
 .star:focus {
   text-shadow: 0 0 20px rgb(245, 245, 97);
   outline: none;
+  transform: scale(1.1);
 }
 .star:hover {
   cursor: pointer;
-  text-shadow: 0 0 20px white;
+  text-shadow: 0 0 20px rgb(245, 245, 97);
   outline: none;
   transform: scale(1.1);
 }
