@@ -9,15 +9,17 @@
   border-radius: 50%;
   box-shadow: none;
   font-size: 24px;
-  background-color: white;
+  background-color: transparent;
+  color: rgb(245, 245, 97);
+  transition: all 0.2s ease-in-out;
 }
 .star:focus {
-  text-shadow: 0 0 10px rgb(245, 245, 97);
-  outline: rgb(245, 245, 97) solid 1px;
+  text-shadow: 0 0 20px rgb(245, 245, 97);
+  outline: none;
 }
 .star:hover {
   cursor: pointer;
-  text-shadow: 0 0 10px black;
-  outline: rgb(245, 245, 97) solid 1px;
+  text-shadow: 0 0 20px white;
+  outline: none;
   transform: scale(1.1);
 }
